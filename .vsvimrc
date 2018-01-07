@@ -85,6 +85,7 @@ function! ToggleComment()
     end
 endfunction
 
+set clipboard=unnamed
 
 nnoremap <leader><Space> :call ToggleComment()<cr>
 vnoremap <leader><Space> :call ToggleComment()<cr>
